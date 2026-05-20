@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <defs>
+    <style>
+      .title { font: bold 20px sans-serif; fill:#0f172a }
+      .label { font: 14px sans-serif; fill:#0f172a }
+      .box { fill:#f8fafc; stroke:#0f172a; stroke-width:2; rx:8; }
+      .arrow { stroke:#0f172a; stroke-width:3; fill:none; marker-end:url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0f172a" />
+    </marker>
+  </defs>
+
+  <text x="24" y="32" class="title">Decision System — AI Operations Copilot</text>
+
+  <!-- Inputs -->
+  <rect x="20" y="70" width="220" height="80" class="box" />
+  <text x="40" y="105" class="label">Inputs</text>
+  <text x="40" y="125" class="label">(transcripts, tickets, metrics)</text>
+
+  <!-- Model -->
+  <rect x="290" y="50" width="260" height="120" class="box" />
+  <text x="320" y="90" class="label">AI Model</text>
+  <text x="320" y="110" class="label">(LLM / embeddings / reasoning)</text>
+
+  <!-- Validator -->
+  <rect x="600" y="50" width="240" height="120" class="box" />
+  <text x="620" y="90" class="label">Validator</text>
+  <text x="620" y="110" class="label">(schemas, confidence, rules)</text>
+
+  <!-- Orchestrator -->
+  <rect x="900" y="50" width="260" height="120" class="box" />
+  <text x="930" y="90" class="label">Orchestrator</text>
+  <text x="930" y="110" class="label">(workflows, retries, audit)</text>
+
+  <!-- Actions -->
+  <rect x="20" y="220" width="260" height="120" class="box" />
+  <text x="40" y="260" class="label">Actions</text>
+  <text x="40" y="280" class="label">(CRM update, tasks, notifications)</text>
+
+  <!-- Insights -->
+  <rect x="320" y="220" width="260" height="120" class="box" />
+  <text x="340" y="260" class="label">Insights</text>
+  <text x="340" y="280" class="label">(recommendations, bottlenecks)</text>
+
+  <!-- Arrows -->
+  <path class="arrow" d="M240 110 L290 110" />
+  <path class="arrow" d="M550 110 L600 110" />
+  <path class="arrow" d="M840 110 L900 110" />
+  <path class="arrow" d="M420 170 L420 220" />
+  <path class="arrow" d="M760 170 L760 220" />
+
+  <!-- Small notes -->
+  <text x="22" y="360" class="label">Diagram: high-level flow from inputs → model → validator → orchestrator → actions/insights.</text>
+
+</svg>

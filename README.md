@@ -1,5 +1,7 @@
 # AI Operations Copilot
 
+![Decision System](docs/images/decision-system.svg)
+
 AI Operations Copilot is a production-style portfolio project for AI automation, product operations, and workflow intelligence. It is designed to feel like an internal operations platform for a startup: it summarizes meetings, extracts action items, generates workflows, updates CRM systems, and surfaces bottlenecks before work slips.
 
 ## Why this project stands out
