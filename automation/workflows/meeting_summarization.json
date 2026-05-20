@@ -1,0 +1,14 @@
+{
+  "name": "Meeting Summarization",
+  "nodes": [
+    { "id": "webhook", "type": "n8n-nodes-base.webhook", "name": "Meeting Completed Webhook" },
+    { "id": "ai", "type": "n8n-nodes-base.httpRequest", "name": "Call AI Summarizer" },
+    { "id": "task", "type": "n8n-nodes-base.httpRequest", "name": "Create Tasks" },
+    { "id": "slack", "type": "n8n-nodes-base.slack", "name": "Send Summary" }
+  ],
+  "connections": {
+    "Meeting Completed Webhook": ["Call AI Summarizer"],
+    "Call AI Summarizer": ["Create Tasks"],
+    "Create Tasks": ["Send Summary"]
+  }
+}

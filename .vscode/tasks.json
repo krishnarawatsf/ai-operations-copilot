@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run backend",
+      "type": "shell",
+      "command": "python",
+      "args": ["-m", "uvicorn", "backend.app.main:app", "--reload", "--app-dir", "backend"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Run frontend",
+      "type": "shell",
+      "command": "npm",
+      "args": ["--prefix", "frontend", "run", "dev"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Run backend tests",
+      "type": "shell",
+      "command": "pytest",
+      "args": ["backend/app/tests", "-q"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Run frontend tests",
+      "type": "shell",
+      "command": "npm",
+      "args": ["--prefix", "frontend", "run", "test"],
+      "problemMatcher": []
+    }
+  ]
+}

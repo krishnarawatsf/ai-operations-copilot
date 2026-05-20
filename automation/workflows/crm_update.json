@@ -1,0 +1,14 @@
+{
+  "name": "CRM Update",
+  "nodes": [
+    { "id": "event", "type": "n8n-nodes-base.webhook", "name": "CRM Event Webhook" },
+    { "id": "classify", "type": "n8n-nodes-base.httpRequest", "name": "Classify Update" },
+    { "id": "crm", "type": "n8n-nodes-base.httpRequest", "name": "Write to CRM" },
+    { "id": "audit", "type": "n8n-nodes-base.httpRequest", "name": "Audit Log" }
+  ],
+  "connections": {
+    "CRM Event Webhook": ["Classify Update"],
+    "Classify Update": ["Write to CRM"],
+    "Write to CRM": ["Audit Log"]
+  }
+}
