@@ -1,3 +1,9 @@
+[![CI](https://github.com/krishnarawatsf/ai-operations-copilot/actions/workflows/python.yml/badge.svg)](https://github.com/krishnarawatsf/ai-operations-copilot/actions)
+[![License](https://img.shields.io/github/license/krishnarawatsf/ai-operations-copilot.svg)](https://github.com/krishnarawatsf/ai-operations-copilot/blob/main/LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/krishnarawatsf/ai-operations-copilot.svg)](https://github.com/krishnarawatsf/ai-operations-copilot/releases)
+[![codecov](https://codecov.io/gh/krishnarawatsf/ai-operations-copilot/branch/main/graph/badge.svg)](https://codecov.io/gh/krishnarawatsf/ai-operations-copilot)
+[![Dependabot status](https://img.shields.io/github/dependabot/krishnarawatsf/ai-operations-copilot.svg)](https://github.com/krishnarawatsf/ai-operations-copilot/network/alerts)
+
 # AI Operations Copilot
 
 ![Decision System](docs/images/decision-system.svg)
