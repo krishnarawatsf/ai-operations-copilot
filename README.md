@@ -135,3 +135,6 @@ AI Operations Copilot is a startup-grade AI automation platform that transforms 
 
 ## Case Study
 See [docs/case-study/README.md](docs/case-study/README.md) for the product story and interview narrative.
+
+## Contributing
+Thanks for checking out this project — to contribute, open an issue describing the change, then submit a PR with tests where applicable. See `CONTRIBUTING.md` for more.
